@@ -23,6 +23,7 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:background="@null"
+            android:textSize="15sp"
             android:hint=" Search for Music or Artist.."
             android:textAlignment="center"
             app:layout_constraintBottom_toBottomOf="parent"
