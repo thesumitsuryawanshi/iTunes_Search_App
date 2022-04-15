@@ -41,6 +41,4 @@ class rv_musicListAdapter(val MusicList: ArrayList<Result>) :
         val tvTrackName = binding.tvTrackName
 
     }
-
-
 }

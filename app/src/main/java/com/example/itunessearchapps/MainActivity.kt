@@ -14,7 +14,6 @@ import com.example.itunessearchapps.viewModel.viewModelFactory
 
 class MainActivity : AppCompatActivity() {
 
-
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -23,14 +22,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         fetchData()
     }
 
     private fun fetchData() {
 
         val repository = (application as MusicListApplication).repository
-
 
         val mainViewModel =
             ViewModelProvider(
@@ -73,5 +70,5 @@ class MainActivity : AppCompatActivity() {
         adapter.notifyItemInserted(musicList.size - 1)
     }
 
-}
 
+}
